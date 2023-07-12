@@ -8,8 +8,8 @@ const Product= ({data,onMove})=>{
             .fill("https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-256.png")
             .map((e, i) => <img style={{ width: 20 }} src={e} key={e + i} />)
         }
-        <br />
-        <br />
+        {/* <br /> */}
+        
 
         <button className='btn btn-warning' onClick={() => onMove(data)}>MOVE</button>
         </div>
