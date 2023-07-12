@@ -51,7 +51,7 @@ function App() {
    
     products.sort((a,b)=> a.price - b.price )
     setProducts([...products]);
-    // console.log(sortedMax)
+   
   }
 
   const sortMin = () => {
